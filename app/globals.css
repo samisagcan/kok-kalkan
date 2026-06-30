@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bone: #efe9df;
+  --sage: #a7b0a0;
+  --olive: #6e7257;
+  --forest: #2f3a2e;
+  --terracotta: #c46b43;
+  --wood: #b98b5e;
+  --ink: #23261f;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* offset anchor jumps so the sticky header doesn't cover section titles */
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background-color: var(--bone);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Visible keyboard focus across all interactive elements (WCAG). */
+  :focus-visible {
+    outline: 2px solid var(--olive);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--sage);
+    color: var(--forest);
+  }
+}
+
+@layer components {
+  /* Section frame: generous breathing room, mobile-first. */
+  .section {
+    @apply mx-auto w-full max-w-6xl px-6 py-20 sm:px-8 sm:py-28;
+  }
+
+  .eyebrow {
+    @apply font-sans text-xs uppercase tracking-brand text-olive;
+  }
+
+  .heading {
+    @apply font-display font-light leading-tight text-forest;
+  }
+
+  /* The brand's tagline rhythm: Roots • Memory • Modern */
+  .dotted {
+    @apply inline-flex flex-wrap items-center gap-x-3 gap-y-1;
+  }
+  .dotted > * + *::before {
+    content: "•";
+    @apply mr-3 text-terracotta;
+  }
+}
+
+/* Honour reduced-motion: disable reveals and smooth scroll entirely. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

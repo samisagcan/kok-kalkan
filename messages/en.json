@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Kök Kalkan — Modern Turkish Cuisine & Tasting Menu in Kalkan",
+    "description": "Chef-driven fine dining in Kalkan. Chef Ozan Orakcı reinterprets Turkish flavours with Western technique on a rooftop terrace above the sea. Tasting menu, à la carte, online reservations.",
+    "ogAlt": "Kök Kalkan rooftop terrace at sunset in Kalkan, Antalya"
+  },
+  "nav": {
+    "story": "Story",
+    "menu": "Menu",
+    "space": "The Space",
+    "visit": "Visit",
+    "reserve": "Reserve",
+    "switchLang": "Türkçe",
+    "switchLangAria": "Switch to Turkish"
+  },
+  "hero": {
+    "tagline": ["Roots", "Memory", "Modern"],
+    "kicker": "Modern Turkish Cuisine · Kalkan",
+    "title": "A table where roots become memory.",
+    "subtitle": "Chef-driven dining on a rooftop terrace above the Kalkan sea — local markets, Western technique, and the slow craft of creating a memory.",
+    "cta": "Reserve a Table",
+    "ctaSecondary": "See the Menu"
+  },
+  "philosophy": {
+    "eyebrow": "The Philosophy",
+    "tagline": ["Roots", "Memory", "Modern"],
+    "title": "We don't just serve a meal. We try to create a memory.",
+    "body": [
+      "Every morning begins at the local markets — whatever is ripest, freshest and closest to its roots decides the day. We cook with the season, waste as close to nothing as we can, and treat sustainability as a discipline rather than a slogan.",
+      "Our cooking takes the Turkish flavours we grew up with and reinterprets them through Western technique — familiar memories, told in a new language. The aim is to slow you down: to share, to linger, and to leave with something more than a full plate."
+    ],
+    "highlights": [
+      { "label": "Roots", "text": "Local markets, the season, ingredients close to the soil." },
+      { "label": "Memory", "text": "Familiar Turkish flavours, reinterpreted to be shared and remembered." },
+      { "label": "Modern", "text": "Western technique, near-zero waste, quiet sustainability." }
+    ]
+  },
+  "chef": {
+    "eyebrow": "The Chef",
+    "name": "Ozan Orakcı",
+    "role": "Chef & Owner",
+    "quote": "I want every guest to leave with a memory, not just a meal.",
+    "bio": "Kök Kalkan is the work of chef Ozan Orakcı, who built the restaurant around a single idea: that the deepest flavours are the ones closest to their roots. He leads the kitchen with a chef-driven menu that changes with the markets and the season.",
+    "bioNote": "Placeholder bio — to be replaced with Ozan's approved text."
+  },
+  "tasting": {
+    "eyebrow": "Tasting Menu",
+    "title": "The Chef's Journey to the Roots",
+    "intro": "A single journey, course by course, served to the whole table — from a month-aged lavender olive oil to a final Turkish coffee.",
+    "perPerson": "per person",
+    "winePairing": "Wine pairing (5 glasses)",
+    "service": "service",
+    "askPrice": "Please ask for the current price",
+    "courseLabel": "Course"
+  },
+  "alacarte": {
+    "eyebrow": "À la Carte",
+    "title": "Dishes with a name and a memory",
+    "intro": "A handful of signature plates, each a small story. Dietary markers are shown beside each dish."
+  },
+  "dietary": {
+    "vegetarian": "Vegetarian",
+    "vegan": "Vegan",
+    "gluten-free": "Gluten-free"
+  },
+  "space": {
+    "eyebrow": "The Space",
+    "title": "A whitewashed rooftop, open to the sea",
+    "body": "A terrace of natural light by day and warm candlelight by night — sea on one side, mountains on the other, and the slow Mediterranean evening in between."
+  },
+  "reservation": {
+    "eyebrow": "Reservations",
+    "title": "Reserve your table",
+    "intro": "Tell us when you'd like to join us and we'll confirm directly. The tasting menu is served to the whole table, so please share any allergies in advance.",
+    "fields": {
+      "date": "Date",
+      "time": "Time",
+      "guests": "Guests",
+      "menu": "Menu preference",
+      "menuTasting": "Tasting Menu",
+      "menuAlaCarte": "À la Carte",
+      "menuUndecided": "Decide later",
+      "wine": "Wine pairing",
+      "wineYes": "Yes, please",
+      "wineNo": "No, thank you",
+      "allergies": "Allergies & dietary notes",
+      "allergiesPlaceholder": "e.g. nut allergy, vegetarian guest, gluten-free…",
+      "name": "Your name",
+      "namePlaceholder": "Full name",
+      "phone": "Phone",
+      "phonePlaceholder": "Phone number",
+      "email": "Email (optional)",
+      "emailPlaceholder": "you@example.com"
+    },
+    "submitWhatsapp": "Send request via WhatsApp",
+    "submitEmail": "Send request via email",
+    "submitUrl": "Continue to booking",
+    "note": "This opens a pre-filled message — your reservation is confirmed once we reply.",
+    "errors": {
+      "date": "Please choose a date.",
+      "guests": "Please tell us how many guests.",
+      "name": "Please enter your name.",
+      "contact": "Please add a phone number or email so we can confirm."
+    },
+    "messageIntro": "Hello Kök Kalkan, I'd like to request a reservation:"
+  },
+  "visit": {
+    "eyebrow": "Visit",
+    "title": "Find us in Kalkan",
+    "addressLabel": "Address",
+    "hoursLabel": "Hours",
+    "contactLabel": "Contact",
+    "directions": "Get Directions",
+    "callUs": "Call us",
+    "whatsapp": "WhatsApp",
+    "mapTitle": "Map showing the location of Kök Kalkan in Kalkan, Antalya"
+  },
+  "footer": {
+    "tagline": ["Roots", "Memory", "Modern"],
+    "blurb": "Modern Turkish cuisine on a rooftop terrace in Kalkan.",
+    "instagram": "Instagram",
+    "rightsTemplate": "© {year} Kök Kalkan. All rights reserved.",
+    "kvkk": "Privacy & Cookies (KVKK)",
+    "kvkkBody": "This site uses only essential functionality and does not set tracking cookies. For questions about your personal data under KVKK, please contact us."
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Kök Kalkan — Kalkan'da Modern Türk Mutfağı & Tadım Menüsü",
+    "description": "Kalkan'da şef odaklı fine dining. Şef Ozan Orakcı, deniz manzaralı çatı katı terasında Türk lezzetlerini batı teknikleriyle yeniden yorumluyor. Tadım menüsü, à la carte, online rezervasyon.",
+    "ogAlt": "Kalkan, Antalya'da gün batımında Kök Kalkan çatı katı terası"
+  },
+  "nav": {
+    "story": "Hikaye",
+    "menu": "Menü",
+    "space": "Mekân",
+    "visit": "Ulaşım",
+    "reserve": "Rezervasyon",
+    "switchLang": "English",
+    "switchLangAria": "İngilizceye geç"
+  },
+  "hero": {
+    "tagline": ["Kök", "Anı", "Modern"],
+    "kicker": "Modern Türk Mutfağı · Kalkan",
+    "title": "Köklerin anıya dönüştüğü bir sofra.",
+    "subtitle": "Kalkan denizinin üzerindeki çatı katı terasında şef odaklı bir deneyim — yerel pazarlar, batı tekniği ve bir anı yaratmanın sabırlı zanaatı.",
+    "cta": "Masa Ayırt",
+    "ctaSecondary": "Menüyü Gör"
+  },
+  "philosophy": {
+    "eyebrow": "Felsefe",
+    "tagline": ["Kök", "Anı", "Modern"],
+    "title": "Sadece yemek servis etmiyoruz. Bir anı yaratmaya çalışıyoruz.",
+    "body": [
+      "Her sabah yerel pazarlarda başlıyor — en taze, en olgun ve köküne en yakın olan ürün günün gidişatını belirliyor. Mevsimine göre pişiriyor, atığı mümkün olduğunca sıfıra indiriyor ve sürdürülebilirliği bir slogan değil bir disiplin olarak görüyoruz.",
+      "Mutfağımız, büyürken tanıdığımız Türk lezzetlerini batı teknikleriyle yeniden yorumluyor — tanıdık anılar, yeni bir dille anlatılıyor. Amacımız sizi yavaşlatmak: paylaşmak, oyalanmak ve dolu bir tabaktan fazlasıyla ayrılmak."
+    ],
+    "highlights": [
+      { "label": "Kök", "text": "Yerel pazarlar, mevsim ve toprağa yakın malzemeler." },
+      { "label": "Anı", "text": "Tanıdık Türk lezzetleri; paylaşılmak ve hatırlanmak için yeniden yorumlanmış." },
+      { "label": "Modern", "text": "Batı tekniği, sıfıra yakın atık, sessiz bir sürdürülebilirlik." }
+    ]
+  },
+  "chef": {
+    "eyebrow": "Şef",
+    "name": "Ozan Orakcı",
+    "role": "Şef & Sahibi",
+    "quote": "Her misafirin yalnızca bir yemekle değil, bir anıyla ayrılmasını istiyorum.",
+    "bio": "Kök Kalkan, restoranı tek bir fikrin etrafında kuran şef Ozan Orakcı'nın eseri: en derin lezzetler, köküne en yakın olanlardır. Mutfağı, pazara ve mevsime göre değişen şef odaklı bir menüyle yönetiyor.",
+    "bioNote": "Yer tutucu biyografi — Ozan'ın onayladığı metinle değiştirilecek."
+  },
+  "tasting": {
+    "eyebrow": "Tadım Menüsü",
+    "title": "The Chef's Journey to the Roots",
+    "intro": "Tek bir yolculuk, kurs kurs, tüm masaya servis edilir — bir ay dinlendirilmiş lavanta zeytinyağından son Türk kahvesine kadar.",
+    "perPerson": "kişi başı",
+    "winePairing": "Şarap eşleştirmesi (5 kadeh)",
+    "service": "servis",
+    "askPrice": "Güncel fiyat için lütfen sorun",
+    "courseLabel": "Kurs"
+  },
+  "alacarte": {
+    "eyebrow": "À la Carte",
+    "title": "İsmi ve anısı olan tabaklar",
+    "intro": "Her biri küçük bir hikâye olan birkaç imza tabak. Diyet işaretleri her tabağın yanında gösterilir."
+  },
+  "dietary": {
+    "vegetarian": "Vejetaryen",
+    "vegan": "Vegan",
+    "gluten-free": "Glutensiz"
+  },
+  "space": {
+    "eyebrow": "Mekân",
+    "title": "Denize açılan beyazbadana bir çatı katı",
+    "body": "Gündüz doğal ışıkla, gece sıcak mum ışığıyla bir teras — bir yanda deniz, diğer yanda dağlar ve aradaki yavaş Akdeniz akşamı."
+  },
+  "reservation": {
+    "eyebrow": "Rezervasyon",
+    "title": "Masanızı ayırtın",
+    "intro": "Bize ne zaman katılmak istediğinizi söyleyin, doğrudan teyit edelim. Tadım menüsü tüm masaya servis edildiğinden lütfen alerjilerinizi önceden bildirin.",
+    "fields": {
+      "date": "Tarih",
+      "time": "Saat",
+      "guests": "Kişi sayısı",
+      "menu": "Menü tercihi",
+      "menuTasting": "Tadım Menüsü",
+      "menuAlaCarte": "À la Carte",
+      "menuUndecided": "Sonra karar vereceğim",
+      "wine": "Şarap eşleştirmesi",
+      "wineYes": "Evet, lütfen",
+      "wineNo": "Hayır, teşekkürler",
+      "allergies": "Alerji & diyet notları",
+      "allergiesPlaceholder": "ör. fındık alerjisi, vejetaryen misafir, glutensiz…",
+      "name": "Adınız",
+      "namePlaceholder": "Ad soyad",
+      "phone": "Telefon",
+      "phonePlaceholder": "Telefon numarası",
+      "email": "E-posta (isteğe bağlı)",
+      "emailPlaceholder": "siz@ornek.com"
+    },
+    "submitWhatsapp": "WhatsApp ile gönder",
+    "submitEmail": "E-posta ile gönder",
+    "submitUrl": "Rezervasyona devam et",
+    "note": "Bu, önceden doldurulmuş bir mesaj açar — rezervasyonunuz biz yanıt verince kesinleşir.",
+    "errors": {
+      "date": "Lütfen bir tarih seçin.",
+      "guests": "Lütfen kişi sayısını belirtin.",
+      "name": "Lütfen adınızı girin.",
+      "contact": "Teyit edebilmemiz için lütfen telefon veya e-posta ekleyin."
+    },
+    "messageIntro": "Merhaba Kök Kalkan, bir rezervasyon talep etmek istiyorum:"
+  },
+  "visit": {
+    "eyebrow": "Ulaşım",
+    "title": "Bizi Kalkan'da bulun",
+    "addressLabel": "Adres",
+    "hoursLabel": "Saatler",
+    "contactLabel": "İletişim",
+    "directions": "Yol Tarifi Al",
+    "callUs": "Bizi arayın",
+    "whatsapp": "WhatsApp",
+    "mapTitle": "Kalkan, Antalya'da Kök Kalkan'ın konumunu gösteren harita"
+  },
+  "footer": {
+    "tagline": ["Kök", "Anı", "Modern"],
+    "blurb": "Kalkan'da çatı katı terasında modern Türk mutfağı.",
+    "instagram": "Instagram",
+    "rightsTemplate": "© {year} Kök Kalkan. Tüm hakları saklıdır.",
+    "kvkk": "Gizlilik & Çerezler (KVKK)",
+    "kvkkBody": "Bu site yalnızca temel işlevsellik kullanır ve takip çerezi yerleştirmez. KVKK kapsamında kişisel verilerinizle ilgili sorularınız için lütfen bizimle iletişime geçin."
+  }
+}

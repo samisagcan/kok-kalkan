@@ -1,0 +1,82 @@
+{
+  "_README": "Image slots for Kök Kalkan. Drop a real photo at public/assets/images/<file> matching the aspect ratio. Until a file exists, SmartImage renders a palette-toned placeholder. Keep alt text descriptive and SEO-friendly. Source photos from Instagram @kokkalkan.tr and Google Maps.",
+  "slots": [
+    {
+      "id": "hero",
+      "file": "hero-terrace-sunset.jpg",
+      "aspect": "16:9",
+      "content": "Rooftop terrace at golden hour, sea and mountains beyond, tables set.",
+      "alt": "Kök Kalkan rooftop terrace at sunset overlooking the sea in Kalkan, Antalya"
+    },
+    {
+      "id": "philosophy",
+      "file": "philosophy-roots.jpg",
+      "aspect": "4:5",
+      "content": "Botanical / ingredient still life — lemon tree, soil, olive branch or local market produce.",
+      "alt": "Fresh local produce and olive branches reflecting Kök Kalkan's roots philosophy"
+    },
+    {
+      "id": "chef",
+      "file": "chef-ozan-orakci.jpg",
+      "aspect": "4:5",
+      "content": "Portrait of chef Ozan Orakcı, or his hands plating a dish.",
+      "alt": "Ozan Orakcı, chef and owner of Kök Kalkan"
+    },
+    {
+      "id": "space-terrace-day",
+      "file": "space-terrace-day.jpg",
+      "aspect": "4:3",
+      "content": "Terrace by day, whitewashed surfaces, sea view, natural light.",
+      "alt": "Kök Kalkan terrace by day with sea views in Kalkan"
+    },
+    {
+      "id": "space-terrace-night",
+      "file": "space-terrace-night.jpg",
+      "aspect": "4:3",
+      "content": "Terrace at night, warm lighting, candlelit tables.",
+      "alt": "Kök Kalkan terrace at night with warm candlelit tables"
+    },
+    {
+      "id": "space-niche-wall",
+      "file": "space-niche-wall.jpg",
+      "aspect": "3:4",
+      "content": "Whitewashed niche wall detail, Mediterranean texture.",
+      "alt": "Whitewashed niche wall detail in the Kök Kalkan dining space"
+    },
+    {
+      "id": "space-rattan-light",
+      "file": "space-rattan-light.jpg",
+      "aspect": "3:4",
+      "content": "Rattan pendant lighting and natural-material interior detail.",
+      "alt": "Rattan pendant lighting in the Kök Kalkan interior"
+    },
+    {
+      "id": "dish-tranquility",
+      "file": "dish-tranquility-of-the-forest.jpg",
+      "aspect": "1:1",
+      "content": "Plated 'Tranquility of the Forest' — village chicken, truffle, caviar.",
+      "alt": "Tranquility of the Forest dish — village chicken with truffle and caviar at Kök Kalkan"
+    },
+    {
+      "id": "dish-sweetness",
+      "file": "dish-sweetness-of-the-sea.jpg",
+      "aspect": "1:1",
+      "content": "Plated 'Sweetness of the Sea' — seabass goujon, white chocolate.",
+      "alt": "Sweetness of the Sea dish — seabass goujon with white chocolate at Kök Kalkan"
+    },
+    {
+      "id": "dish-half-moon",
+      "file": "dish-half-moon.jpg",
+      "aspect": "1:1",
+      "content": "Plated 'Half Moon' — lamb, chickpea, cabbage.",
+      "alt": "Half Moon dish — lamb with chickpea and cabbage at Kök Kalkan"
+    },
+    {
+      "id": "og",
+      "file": "og-terrace-sunset.jpg",
+      "aspect": "1.91:1",
+      "content": "Open Graph / social share image — sunset terrace, 1200x630.",
+      "alt": "Kök Kalkan — modern Turkish cuisine in Kalkan"
+    }
+  ]
+}
