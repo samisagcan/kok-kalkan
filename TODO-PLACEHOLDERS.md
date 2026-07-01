@@ -1,44 +1,33 @@
-# TODO — values for Sami to confirm
+# TODO — values to confirm
 
-Everything below is a placeholder in the code. Replace, then redeploy.
-Most live in **`config/site.ts`**; a few are noted with their file.
+Status of the real data. Most placeholders are now filled (demo is live). What
+remains is mostly chef sign-off. Most values live in **`config/site.ts`**.
 
-## 1. Reservation contact — `config/site.ts` → `booking` & `contact`
-- [ ] **WhatsApp number** for reservations (`booking.whatsappNumber`, digits only, e.g. `905XXXXXXXXX`)
-- [ ] Reservation **email** (`booking.email`) — only needed if you switch `booking.mode` to `"email"`
-- [ ] Real **reservation-system link**, if/when you adopt one (`booking.url` + set `booking.mode: "url"`)
-- [ ] Public **phone number** — display + `tel:` (`contact.phoneDisplay`, `contact.phoneHref`)
+## ✅ Done
+- [x] **WhatsApp / phone** — `+90 543 864 39 65` (`booking.whatsappNumber` `905438643965`)
+- [x] **Hours** — Sun–Fri 14:00–00:00, Sat 14:00–01:00 (`display` + schema kept in sync)
+- [x] **Exact coordinates** — `36.26312928620116, 29.415281468283627` (`address.geo`)
+- [x] **Maps link** — real share link wired to the "get directions" button
+- [x] **Instagram** — `@kokkalkan.tr`
+- [x] **Prices** — set to `null` → renders "ask for current price" (awaiting chef pricing)
+- [x] **Photos** — all 11 slots filled with real photos, incl. chef Ozan Orakcı portrait
+- [x] **Hosting** — live on GitHub Pages; `siteUrl` set to the project URL
 
-## 2. Prices (seasonal) — `config/site.ts` → `pricing`
-- [ ] Tasting menu **per-person price** (`pricing.tastingPerPerson`) — set `null` to show "ask for current price"
-- [ ] **Wine pairing** price, 5 glasses (`pricing.winePairing`)
-- [ ] Confirm **service %** (currently 10)
+## ⏳ Remaining — needs the restaurant / chef
+- [ ] **Chef bio** (`messages/{en,tr}.json → chef.bio`) — currently a generic
+      write-up. Replace with Ozan Orakcı's approved text (EN + TR); confirm the
+      quote too. (The `bioNote` field is an internal reminder, not shown on site.)
+- [ ] **Seasonal prices** (`pricing.tastingPerPerson`, `pricing.winePairing`) —
+      set numbers once the chef confirms, or leave `null` to keep "ask for price".
+- [ ] **Service %** (`pricing.servicePercent`) — confirm (currently 10).
+- [ ] **Postal code** (`address.postalCode`) — confirm (currently 07960).
 
-## 3. Chef bio — `messages/en.json` & `messages/tr.json` → `chef`
-- [ ] **Ozan Orakcı's** approved short bio (EN + TR), and confirm name spelling
-- [ ] Optional: adjust the chef quote
-
-## 4. Photos — `public/assets/images/` (see `data/image-manifest.json`)
-Drop real photos in using the exact filenames. Placeholders show until then.
-- [ ] `hero-terrace-sunset.jpg` (16:9 — sunset terrace)
-- [ ] `philosophy-roots.jpg` (4:5 — ingredient/botanical)
-- [ ] `chef-ozan-orakci.jpg` (4:5 — chef portrait/hands)
-- [ ] `space-terrace-day.jpg`, `space-terrace-night.jpg` (4:3)
-- [ ] `space-niche-wall.jpg`, `space-rattan-light.jpg` (3:4)
-- [ ] `dish-tranquility-of-the-forest.jpg`, `dish-sweetness-of-the-sea.jpg`, `dish-half-moon.jpg` (1:1)
-- [ ] `og-terrace-sunset.jpg` (1200×630 — social share image)
-
-## 5. Hours — `config/site.ts` → `hours`
-- [ ] Real **service days & times** (update both `display` and `schema` so they match)
-
-## 6. Location — `config/site.ts` → `address`
-- [ ] Confirm **postal code** and **exact map coordinates** (`address.geo`)
-
-## 7. Social — `config/site.ts` → `contact` / `social`
-- [ ] Confirm Instagram URL (currently `@kokkalkan.tr`) and add any other socials
-
-## 8. Domain — `config/site.ts` → `siteUrl`
-- [ ] Set the **final domain** (used for canonical URLs, sitemap, JSON-LD, OG tags)
-
-## 9. Reviews (optional) — `lib/structured-data.ts`
-- [ ] Replace the placeholder `aggregateRating` with verified rating/review count, or remove it
+## 🔧 Optional / later
+- [ ] **Custom domain** — if adopted, update `siteUrl` (drop `/kok-kalkan`); Pages
+      also needs the domain configured in Settings → Pages.
+- [ ] **Reservation email** (`booking.email`) — only needed if `booking.mode`
+      switches to `"email"`; unused in the current WhatsApp flow.
+- [ ] **Real reservation system** (`booking.url` + `booking.mode: "url"`) — one-line
+      swap if a booking platform is adopted.
+- [ ] **Reviews** — the fabricated `aggregateRating` was **removed** from
+      `lib/structured-data.ts`. Re-add only with a verified rating/review count.

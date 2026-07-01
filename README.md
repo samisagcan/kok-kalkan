@@ -6,6 +6,9 @@ secondary), SEO-rich, with online reservations.
 
 Built with **Next.js (App Router) + TypeScript + Tailwind CSS**.
 
+**Live:** https://samisagcan.github.io/kok-kalkan/ — deployed to GitHub Pages
+as a static export on every push to `main`.
+
 ## Quick start
 
 ```bash
@@ -50,17 +53,29 @@ export const booking = {
 };
 ```
 
-## Deploy to Vercel
+## Deploy (GitHub Pages — current)
 
-1. Push this repo to GitHub.
-2. In Vercel: **New Project → import the repo**. Framework is auto-detected as
-   Next.js; no build settings needed (`next build`).
-3. Add a custom domain and update `siteUrl` in `config/site.ts` to match
-   (used for canonical URLs, sitemap and JSON-LD).
-4. Deploy. No environment variables are required for the default
-   WhatsApp/email reservation flow.
+The site ships as a **static export** to GitHub Pages via
+`.github/workflows/deploy-pages.yml`, which runs on every push to `main`.
+
+- The workflow sets `GITHUB_PAGES=true`, which turns on `output: "export"` plus
+  `basePath` / `assetPrefix` of `/kok-kalkan` in `next.config.ts`. Local dev and
+  a Vercel deploy leave that env var unset and keep the default (no sub-path).
+- One-time repo setup: the repo must be **public**, and
+  **Settings → Pages → Source** must be **"GitHub Actions"**.
+- The project sub-path is why `siteUrl` in `config/site.ts` is
+  `https://samisagcan.github.io/kok-kalkan`. If you move to a custom domain,
+  update `siteUrl` (drop the `/kok-kalkan`) — canonical, sitemap, JSON-LD and OG
+  tags all follow it.
+
+### Alternative: Vercel (no sub-path)
+
+1. In Vercel: **New Project → import the repo**. Framework auto-detected as
+   Next.js; no build settings needed (`next build`), no env vars required.
+2. Add a custom domain and set `siteUrl` in `config/site.ts` to match.
 
 ## Before going live
 
-See **`TODO-PLACEHOLDERS.md`** for the list of real values to confirm
-(prices, phone, hours, chef bio, photos, social links).
+See **`TODO-PLACEHOLDERS.md`** for the remaining values to confirm with the
+restaurant (chef bio, service %, postal code, and — optionally — a custom
+domain and a real reviews rating).

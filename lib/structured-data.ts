@@ -64,12 +64,8 @@ export function restaurantJsonLd(locale: Locale) {
         },
       ],
     },
-    // PLACEHOLDER: replace with verified aggregate rating when available.
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "120",
-    },
+    // No aggregateRating: omit until a verified rating/review count exists —
+    // fabricated review markup violates Google's structured-data guidelines.
   };
 
   const faq = {
